@@ -1,0 +1,22 @@
+/* Brädspelsklubben Tärningen: färger och typsnitt */
+
+* {
+  box-sizing: border-box;
+}
+body {
+  font-family: system-ui, Futura, Verdana, Geneva, Tahoma, sans-serif;
+  line-height: 1.5;
+  color: #6c464f;
+  background-color: #b3cdd1;
+  max-width: 800px;
+  margin: 0 auto;
+}
+a {
+  font-weight: bold;
+  color: #9e768f;
+}
+
+a:hover {
+  color: #6c464f;
+  text-decoration: none;
+}

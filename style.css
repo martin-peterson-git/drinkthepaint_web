@@ -13,11 +13,12 @@ body {
 }
 a {
   font-weight: bold;
-  color: #9e768f;
+  color: #fef5ec;
+  text-decoration: none;
 }
 
 a:hover {
-  color: #6c464f;
+  color: #9e768f;
   text-decoration: none;
 }
 
@@ -26,6 +27,11 @@ header {
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
+  padding-left: 10px;
+  padding-right: 10px;
+  color: #fef5ec;
+  background-color: #6c464f;
+  text-decoration: none;
 }
 
 nav ul {
@@ -33,15 +39,21 @@ nav ul {
   gap: 30px;
   padding: 0;
   flex-wrap: wrap;
+  text-decoration: none;
 }
 
 nav li {
   display: block;
+  text-decoration: none;
 }
 img {
   max-width: 40%;
   height: auto;
 }
 footer {
-  flex: 1;
+  display: flex;
+  flex-direction: row;
+  justify-content: end;
+  gap: 40px;
+  text-decoration: none;
 }

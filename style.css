@@ -7,6 +7,8 @@ body {
   font-family: system-ui, Futura, Verdana, Geneva, Tahoma, sans-serif;
   line-height: 1.5;
   color: #6c464f;
+  padding-left: 10px;
+  padding-right: 10px;
   background-color: #b3cdd1;
   max-width: 800px;
   margin: 24px auto;
@@ -27,8 +29,8 @@ header {
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  padding-left: 10px;
-  padding-right: 10px;
+  padding-left: 12px;
+  padding-right: 12px;
   color: #fef5ec;
   background-color: #6c464f;
   text-decoration: none;
@@ -38,6 +40,7 @@ nav ul {
   display: flex;
   gap: 30px;
   padding: 0;
+  padding-top: 12px;
   flex-wrap: wrap;
   text-decoration: none;
 }

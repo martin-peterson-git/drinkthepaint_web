@@ -42,3 +42,6 @@ img {
   max-width: 40%;
   height: auto;
 }
+footer {
+  flex: 1;
+}
